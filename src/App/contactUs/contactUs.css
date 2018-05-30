@@ -1,0 +1,18 @@
+.contactus{
+    background-color:#F7C289;
+    color: black;
+}
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-family: ariel;
+    line-height: 1.42857143;
+    color: black;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color:#F7C289;
+    border: 1px  #F7C289;
+    border-radius: 4px;
+}
