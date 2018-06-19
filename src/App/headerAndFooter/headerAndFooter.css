@@ -53,6 +53,21 @@
     color:#F7C289;
 }
 
+.navbar-nav {
+    width: 35%;
+    text-align: center;
+    left: 0;
+}
+
+@media (min-width: 768px)
+{
+    .navbar-nav {
+        float: none;
+        margin-left: 33%;
+    }
+    
+}
+
 .footer{ 
   	background-color:black;
   	color:white;
