@@ -39,16 +39,22 @@
 
 .carousel{
     background-color:black;
-    color:#F7C289;
+    color:#f7C289;
     margin-bottom: 20px;
   }
 
 .mostpop{
     background-color:black;
-    color:#F7C289;
+    color:#f7C289;
     margin-bottom: 30px;
     padding:10px;
     font-family:Dancing script;
     font-style: italic; 
     font-size: 50px;
+    margin-top: -20px
+ }
+
+ #carouselbg{
+  background-color:black;
+  height:500px;
  }

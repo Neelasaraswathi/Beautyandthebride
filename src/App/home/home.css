@@ -1,23 +1,41 @@
 ﻿.welcome{
-    background-color:#F7C289;
+    background-color:#f7C289;
     color:black;
     font-size: 15px;
     padding:30px;
     left:200px;
 }
 
-.headingscollections{
+ #textBoxTitle1{
+  color:#F7C289;
+  font-style: italic;
+  font-size: 30px;
+  font-family: Dancing Script;
+ }
+
+ #textBoxTitle2{
+  color:black;
+  font-size: 20px;
+  font-family: Dancing Script;
+ }
+ 
+ /* @media screen and (max-width: 450px) {
+  .text-block{
+    top: 500;
+    left: 50;
+  }
+} 
+  */
+ 
+.headingsCollections{
         background-color:black;
-        color:#F7C289;
+        color:#f7C289;
         font-family:Dancing script;
         font-style: italic; 
         font-size: 50px;
-
 }
 
-.collections{
-
-     
+.collections{     
      background-color:black;
      color:white;
      font-style: italic;
@@ -27,37 +45,40 @@
      margin-top: -30px;
  }
 
-.bg {
-    
-    background-image: url("../../Assets/Images/coverpicture.jpg");
-    margin-top: -20px;
+ .centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-    
-    height: 80ch;
-    
-	
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover; 
-  }
-.aboutus {
+#aboutUsCol{
+  height:920px;
+   padding-right: 0px;
+}
+
+.aboutUs {
     background-image: url("../../Assets/Images/Aboutus.jpg");
     height:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .aboutuscontent {
-    background-color:#F7C289;
+}
+
+.aboutuscontent {
+    background-color:#f7C289;
     font-size: 20px;
+    font-family:Dancing script;
+    font-style: italic;
   }
 
-  .center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
 .text-block {
   width: 30%;
   position: absolute;

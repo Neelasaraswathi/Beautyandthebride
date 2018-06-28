@@ -6,7 +6,7 @@
 }
 
 .headertitle{
-    background-color:#F7C289;
+    background-color:#f7C289;
     color:black;
     font-style: italic;
     font-family: Dancing Script;
@@ -14,7 +14,7 @@
 }
 
 .navbar1{
-   background-color: #F7C289;
+   background-color: #f7C289;
    font-size: 20px;
    font-style: bold;
    font-family: Ariel;
@@ -28,12 +28,12 @@
 }
 
 .navbar-inverse {
-    background-color: #F7C289;
-    border-color: #F7C289;   
+    background-color: #f7C289;
+    border-color: #f7C289;   
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color:#F7C289;
+    color:#f7C289;
     background-color:black;
 }
 
@@ -50,7 +50,7 @@
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
     background-color:black;
-    color:#F7C289;
+    color:#f7C289;
 }
 
 .navbar-nav {
@@ -82,12 +82,12 @@
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color:black;
-    color:#F7C289;
+    color:#f7C289;
   /*for active element alone*/ 
 }
 
 .navbar-default .navbar-nav>li>a {
-    color:#F7C289;
+    color:#f7C289;
 }
 
 .navbar {
@@ -95,10 +95,13 @@
     min-height: 50px;
     margin-bottom: 20px;
     border: 2px solid transparent;
-    color:#F7C289;
+    color:#f7C289;
     font-size: 20px;
    font-style: bold;
    font-family: Ariel;
 }
 
+#footerwidth{
+    width: 50%;
+}
 

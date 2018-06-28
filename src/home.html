@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../../Assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../../Assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Assets/css/font-awesome.min.css">
   
-  <link rel="stylesheet" href="home.css">
-  <link rel="stylesheet" href="../headerAndFooter/headerAndFooter.css">
+  <link rel="stylesheet" href="App/home/home.css">
+  <link rel="stylesheet" href="App/headerAndFooter/headerAndFooter.css">
 </head>
 
 <body>  
@@ -25,33 +25,36 @@
     <div class="container-fluid">
       <ul class="nav navbar-nav">
         <li class="active">
-          <a  href="..\home\home.html">Home</a ></li>
+          <a  href="home.html">Home</a ></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Collections<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a tabindex="-1" href="..\collections\sarees.html">Sarees</a></li>
-            <li><a tabindex="-1" href="..\collections\lehengas.html">Lehenga</a></li>
-            <li><a tabindex="-1" href="..\Collections\salwarSuits.html">Salwar Suits</a></li>
+            <li><a tabindex="-1" href="App/collections/sarees.html">Sarees</a></li>
+            <li><a tabindex="-1" href="App/collections/lehengas.html">Lehenga</a></li>
+            <li><a tabindex="-1" href="App/Collections/salwarSuits.html">Salwar Suits</a></li>
           </ul>
         </li>
-        <li><a href="..\trending\trending.html">Trending</a></li>
-        <li><a href="..\contactUs\contactUs.html">Contact Us</a></li>
+        <li><a href="App/trending/trending.html">Trending</a></li>
+        <li><a href="App/contactUs/contactUs.html">Contact Us</a></li>
       </ul>
     </div>
   </div>
   </nav>
 
-<div class="bg" >	
-    <div class="text-block" class="img-responsive">
-        <center><p style="color:#F7C289;font-style: italic;font-size: 30px;font-family: Dancing Script">Find your fashion match! </p></center>
-        <center><p style="color:black; font-size: 20px;font-family: Dancing Script">Committed to looking good!</p></center>
-        <center><img src="..\..\Assets\images\likeIt.jpg" 
-           height="10%" width="10%" onclick="likeButton()"></center>
-        <center><span id="CountedClicks">0</span><br></center>
-      </div>
+  <div>
+      <img src="Assets/images/coverpicture.jpg" alt="cover picture" style="width:100%; margin-top: -20px; height: 80%">
+        <div class="text-block" class ="img-responsive" class="centered">
+            <p id = "textBoxTitle1">
+              Find your fashion match! </p>
+            <p id = "textBoxTitle2">
+              Committed to looking good!</p>
+           <img src="Assets/images/likeIt.jpg" 
+               height="10%" width="10%" onclick="likeButton()">
+            <span id="CountedClicks">0</span><br>
+          </div>
+          
       
-	
-</div>
+    </div>
 
 <div class="welcome">
   <center><h4>Welcome</h4></center>
@@ -60,7 +63,7 @@
   <center><p>There's much to see here. So, take your time, look around, and learn all there is to know about us. We hope you enjoy our site and take a moment to drop us a line</p></center>
 </div>
 
-<div class= "headingscollections" >
+<div class= "headingsCollections" >
   <center><p>Collections<br></p></center>
 </div>  
 
@@ -69,15 +72,15 @@
 <div class="container">
  <div class="row">
     <div class="col-sm-4">
-      <a href="..\collections\sarees.html"><img src="../../Assets/images/SareesCP.jpg" class="center" height=200px width=300px></a> 
+      <a href="App/collections/sarees.html"><img src="Assets/images/SareesCP.jpg" class="center" height=200px width=300px></a> 
       <p>Elegance, grace and respect. Make your wedding as special as you are! Choose from a wide range of collections and find your best fit</p>
      </div>
     <div class="col-sm-4" >
-        <a href="..\collections\lehengas.html"><img src="../../Assets/images/lehengasCP.jpg" class="center" height=200px ></a>
+        <a href="App/collections/lehengas.html"><img src="Assets/images/lehengasCP.jpg" class="center" height=200px ></a>
       <p>Make all your wedding ceremonies memorable!<br>Choose collections from our top designers</p>  
     </div>
     <div class="col-sm-4">
-        <a href="..\Collections\salwarSuits.html"><img src="../../Assets/images/SalwarCP.jpg" class="center" height=200px ></a>
+        <a href="App/Collections/salwarSuits.html"><img src="Assets/images/SalwarCP.jpg" class="center" height=200px ></a>
       <p>Pick from the latest range of Wedding Anarkalis.<br>Buy Indian Anarkali Suits for Weddings at best price range</p> 
     </div>
   </div>
@@ -86,11 +89,11 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6" >
-        <a href="..\trending\trending.html"><img src="../../Assets/images/PopularcollectionsCP.jpg" class="center" height=200px></a>
+        <a href="App/trending/trending.html"><img src="Assets/images/PopularcollectionsCP.jpg" class="center" height=200px></a>
       <center><p><br>Get sweet deals for the trendiest collections</p></center>
     </div>
     <div class="col-sm-6">
-        <a href="..\contactUs\contactUs.html"><img src="../../Assets/images/VisitourstoresCP.jpg" class="center" height=200px></a>
+        <a href="App/contactUs/contactUs.html"><img src="Assets/images/VisitourstoresCP.jpg" class="center" height=200px></a>
      <center><p>
       <br>Come visit the nearest retail stores and see our complete collections</p></center>
     </div>
@@ -101,21 +104,21 @@
 
 
 <div class="aboutuscontent">
-<div class="row">
+<div class="row" style = "width:1364px" >
     <div class="col-sm-6" style="padding: 70px;">
-      <p style="font-size: 40px;font-family:Dancing script;font-style: italic">About Us</p>
-        <p style="font-size: 30px;font-family:Dancing script;font-style: italic"><br>Quality Styles</p>
+      <p style="font-size: 40px;">About Us</p>
+        <p style="font-size: 30px;"><br>Quality Styles</p>
         <center><p>In fashion, beauty is in the eye of the beholder, but quality should never be a compromise. No matter what you're looking for, we guarantee durability. We are committed to providing you styles that are well-built and will last through the wear and tear of your day.
         <br></p></center>
-        <p style="font-size: 30px;font-family:Dancing script;font-style: italic"><br>Innovative Designs</p>
+        <p style="font-size: 30px;"><br>Innovative Designs</p>
         <center><p>Our goal is to put the "fun" in functional fashion. We know that looking stylish can make your whole day better; that's why we're committed to being your source for the newest trends. We design clothing you love so you can focus on looking great!
         <br></p></center>
-        <p style="font-size: 30px;font-family:Dancing script;font-style: italic"><br>100% Satisfaction Guaranteed</p>
+        <p style="font-size: 30px;"><br>100% Satisfaction Guaranteed</p>
         <center><p>While shopping with us, we want you to be completely happy with the experience. If you have questions about us or our products, get in touch! We hope you continue to shop with us for many years to come.</p></center>
     </div>
 
-    <div class="col-sm-6" style="height:920px" >
-      <div class="aboutus"></div>   
+    <div class="col-sm-6" id = "aboutUsCol">
+      <div class="aboutUs"></div>   
     </div>
 </div>
 </div>
@@ -127,21 +130,21 @@
   <nav class="navbar navbar-default" >
     <div class="container-fluid">
       
-      <ul class="nav navbar-nav"style = "width:100%">
-        <li class="active"><a href="..\home\home.html">Home</a></li>
-        <li><a href="..\collections\sarees.html">Sarees</a></li>
-        <li><a href="..\collections\lehengas.html">Lehenga</a></li>
-        <li><a href="..\collections\salwarSuits.html">Salwar Suits</a></li>
-        <li><a href="..\trending\trending.html">Trending</a></li>
-        <li><a href="..\contactUs\contactUs.html">Contact Us</a></li>
+      <ul class="nav navbar-nav"  id = "footerwidth">
+        <li class="active"><a href="home.html">Home</a></li>
+        <li><a href="App/collections/sarees.html">Sarees</a></li>
+        <li><a href="App/collections/lehengas.html">Lehenga</a></li>
+        <li><a href="App/collections/salwarSuits.html">Salwar Suits</a></li>
+        <li><a href="App/trending/trending.html">Trending</a></li>
+        <li><a href="App/contactUs/contactUs.html">Contact Us</a></li>
       </ul>
     </div>
   </nav>
 </div>
 
-<script src="../../Assets/js/jquery.min.js"></script>
-<script src="../../Assets/js/bootstrap.min.js"></script>
-<script src="likeButton.js">
+<script src="Assets/js/jquery.min.js"></script>
+<script src="Assets/js/bootstrap.min.js"></script>
+<script src="App/home/likeButton.js">
 
   </script>
 

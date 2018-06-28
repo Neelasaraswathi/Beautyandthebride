@@ -1,7 +1,28 @@
 .contactus{
-    background-color:#F7C289;
+    background-color:#f7C289;
     color: black;
 }
+
+#address{
+    background-color:#F7C289;
+    color: black
+}
+
+#form{
+    background-color: #F7C289;
+     border-color: black
+}
+
+#subscribetitle{
+    font-style: italic;
+    font-size: 40px;
+}
+
+#subscribe{
+    color:black;
+    font-family:Dancing script;
+}
+
 pre {
     display: block;
     padding: 9.5px;
@@ -12,7 +33,7 @@ pre {
     color: black;
     word-break: break-all;
     word-wrap: break-word;
-    background-color:#F7C289;
-    border: 1px  #F7C289;
+    background-color:#f7C289;
+    border: 1px  #f7C289;
     border-radius: 4px;
 }
